@@ -1,0 +1,17 @@
+[
+    {
+        "name": "xxxxxxxxxxxx",
+        "courses": [
+            "CS999",
+            "MATH999",
+            "MATH1111"
+        ]
+    }, 
+    {
+        "name": "yyyyyyyyyyyyy",
+        "courses": [
+            "CS321399",
+            "MATH9231299"
+        ]
+    }
+]
