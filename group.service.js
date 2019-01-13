@@ -71,6 +71,7 @@ async function addToPool (uuid, date, maxMembers, courses) {
  */
 async function joinedGroups(uuid) {
     var result = [];
+    if (!lookUpTable[uuid]) return [];
     for (var path of lookUpTable[uuid]) {
         group = _.get(dataBase, path, {});
         result.push({

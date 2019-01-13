@@ -29,14 +29,19 @@ redisClient.on("error", function(err){
 });
 
 function getNewUUID() {
-    return uuid();
+    function s4() {
+        return Math.floor((1 + Math.random()) * 0x10000)
+        .toString(16)
+        .substring(1);
+    }
+    return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
 }
 
 redisClient.on("ready", ()=>{
     var data = fs.readFileSync('students.1.json');
     var students = JSON.parse(data);
-    var uuid = getNewUUID();
     for (var student of students) {
+        var uuid = getNewUUID();
         hsetAsync('students', uuid, JSON.stringify(student)); 
         hsetAsync('idLookUp', student.userId, uuid);
     }
