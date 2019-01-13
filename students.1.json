@@ -1,7 +1,7 @@
 [
   {
     "name": "Kai Kim",
-    "username": "kimkai12",
+    "userId": "kimkai12",
     "courses": [
       "MATH 135",
       "MATH 137",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Irene Bae",
-    "username": "baechu",
+    "userId": "baechu",
     "courses": [
       "MATH 135",
       "MATH 137",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Amy Santiago",
-    "username": "santaigoa99",
+    "userId": "santaigoa99",
     "courses": [
       "MATH 145",
       "MATH 147",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Jake Peralta",
-    "username": "peraltaj99",
+    "userId": "peraltaj99",
     "courses": [
       "MATH 145",
       "MATH 127",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Tetsurou Kuroo",
-    "username": "kurotetsu1",
+    "userId": "kurotetsu1",
     "courses": [
       "MATH 135",
       "MATH 127",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Conrad Hewitt",
-    "username": "chewitt",
+    "userId": "chewitt",
     "courses": [
       "AFM 101",
       "AFM 131",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Ryan Higa",
-    "username": "nigahiga",
+    "userId": "nigahiga",
     "courses": [
       "MATH 109",
       "ECON 101",
@@ -85,7 +85,7 @@
   },
   {
     "name": "Benoit Leduc",
-    "username": "leduck",
+    "userId": "leduck",
     "courses": [
       "PHYS 111",
       "CHEM 120",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Henry Zavagno",
-    "username": "zavagnooooo",
+    "userId": "zavagnooooo",
     "courses": [
       "CHEM 120",
       "BIOL 110",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Krystal Jung",
-    "username": "vousmevoyez",
+    "userId": "vousmevoyez",
     "courses": [
       "MATH 127",
       "SPCOM 100",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Naruto Uzumaki",
-    "username": "ifyoubelieveit",
+    "userId": "ifyoubelieveit",
     "courses": [
       "CHE 102",
       "MATH 116",
@@ -133,7 +133,7 @@
   },
   {
     "name": "Sasuke Uchiha",
-    "username": "revenge",
+    "userId": "revenge",
     "courses": [
       "MATH 116",
       "GENE 199",
@@ -145,7 +145,7 @@
   },
   {
     "name": "Victoria Song",
-    "username": "songqian",
+    "userId": "songqian",
     "courses": [
       "HLTH 101",
       "BIOL 130",
@@ -156,7 +156,7 @@
   },
   {
     "name": "Jackson Wang",
-    "username": "jackwangson",
+    "userId": "jackwangson",
     "courses": [
       "BIOL 130",
       "AHS 107",
@@ -168,7 +168,7 @@
   },
   {
     "name": "Annabeth Chase",
-    "username": "owlofminerva",
+    "userId": "owlofminerva",
     "courses": [
       "HLTH 101",
       "HLTH 103",
@@ -180,7 +180,7 @@
   },
   {
     "name": "Percy Jackson",
-    "username": "sonofposeidon",
+    "userId": "sonofposeidon",
     "courses": [
       "GEOG 101",
       "ENVS 178",
@@ -192,7 +192,7 @@
   },
   {
     "name": "Peter Pan",
-    "username": "neverland",
+    "userId": "neverland",
     "courses": [
       "GEOG 181",
       "GEOG 187",
@@ -204,7 +204,7 @@
   },
   {
     "name": "Rosa Diaz",
-    "username": "diazr99",
+    "userId": "diazr99",
     "courses": [
       "PSYCH 101",
       "ARTS 130",
@@ -216,7 +216,7 @@
   },
   {
     "name": "Charles Boyle",
-    "username": "boylec99",
+    "userId": "boylec99",
     "courses": [
       "SOC 101",
       "ARTS 130",
@@ -228,7 +228,7 @@
   },
   {
     "name": "Gina Linetti",
-    "username": "linettig99",
+    "userId": "linettig99",
     "courses": [
       "SOC 101",
       "PSCI 100",
@@ -240,7 +240,7 @@
   },
   {
     "name": "Raymond Holt",
-    "username": "holtr99",
+    "userId": "holtr99",
     "courses": [
       "PSCI 100",
       "SOC 101",

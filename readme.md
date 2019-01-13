@@ -1,4 +1,14 @@
-# Register and Login
+
+# Usage
+
+1. install node and redis
+2. `npm install`
+3. start redis
+4. `node app`
+
+# API
+
+## Register and Login
 1. Register: 
 `POST /account/register`  (**do not need to implement**)  
 payload:
@@ -21,7 +31,7 @@ payload:
     password: string
 }
 ```
-respond:  `200  -  {UUID: string}` or `400 - failed`  
+respond:  `200  -  {uuid: string}` or `400 - failed`  
 UUID is like user ID but unique for each user 
 
 ---
@@ -58,12 +68,12 @@ payload:
 ```
 
 
-# Find groups
+## Find groups
 1. Sign up for study: `POST /study/schedule`  
 payload: 
 ```js
 {
-    UUID: string,
+    uuid: string,
     date: "DDMMYY",
     maxMembers: int,
     courses: [
@@ -76,8 +86,14 @@ payload:
 payload: 
 ```js
 {
-    UUID: string,
-    date: "DDMMYY"
+    uuid: string,
+    date: "DDMMYY",
+    groupMembers: [
+        (UUIDs of group members)
+    ],
+    courses: [
+        string
+    ]
 }
 ```
 

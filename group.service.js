@@ -41,15 +41,15 @@ async function addToPool (uuid, date, maxMembers, courses) {
         maxMembers: maxMembers,
         courses: courses
     }
-    if (!date in dataBase) dataBase[date] = [];
+    if (!dataBase[date]) dataBase[date] = [];
 
     let foundFit = false;
-    for (i of dataBase[date]) {
+    for (var i in  dataBase[date]) {
         var group = dataBase[date][i];
         if (fitsInGroup(pendingStudent, group)) {
             addToGroup (pendingStudent, group);
             //add path to student to lookUpTable
-            if (!uuid in lookUpTable) lookUpTable[uuid] = [];
+            if (!lookUpTable[uuid]) lookUpTable[uuid] = [];
             lookUpTable[uuid].push([date, i]);
             foundFit = true;
             break;
@@ -59,7 +59,7 @@ async function addToPool (uuid, date, maxMembers, courses) {
     if (!foundFit) {
         dataBase[date].push({
             maxMembers: maxMembers,
-            courses: course,
+            courses: courses,
             members: [pendingStudent]
         })
     }
@@ -71,7 +71,7 @@ async function addToPool (uuid, date, maxMembers, courses) {
  */
 async function joinedGroups(uuid) {
     var result = [];
-    for (path of lookUpTable[uuid]) {
+    for (var path of lookUpTable[uuid]) {
         group = _.get(dataBase, path, {});
         result.push({
             date: path[0],
@@ -92,7 +92,7 @@ async function joinedGroups(uuid) {
 async function removeFromPool(uuid, date, courses, groupMembers) {
     groupMembers.push(uuid); //restore full group 
     groups = _.get(dataBase, date, []);
-    for (group of groups) {
+    for (var group of groups) {
         if (_.isEqual(group.members.sort(), groupMembers.sort()) && 
         _.isEqual(group.courses.sort(), courses.sort())) {
             _.pull(group.members, uuid);
