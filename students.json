@@ -1,17 +1,234 @@
+
 [
     {
-        "name": "xxxxxxxxxxxx",
-        "courses": [
-            "CS999",
-            "MATH999",
-            "MATH1111"
-        ]
-    }, 
+      "name": "Kai Kim",
+      "username": "kimkai12",
+      "courses": [
+        "MATH 135",
+        "MATH 137",
+        "CS 135",
+        "AFM 101",
+        "AFM 131"
+      ]
+    },
     {
-        "name": "yyyyyyyyyyyyy",
-        "courses": [
-            "CS321399",
-            "MATH9231299"
-        ]
+      "name": "Irene Bae",
+      "username": "baechu",
+      "courses": [
+        "MATH 135",
+        "MATH 137",
+        "CS 145",
+        "ENGL 109",
+        "AFM 101"
+      ]
+    },
+    {
+      "name": "Amy Santiago",
+      "username": "santaigoa99",
+      "courses": [
+        "MATH 145",
+        "MATH 147",
+        "CS 115",
+        "ENGL 109",
+        "ECON 101"
+      ]
+    },
+    {
+      "name": "Jake Peralta",
+      "username": "peraltaj99",
+      "courses": [
+        "MATH 145",
+        "MATH 127",
+        "CS 145",
+        "SPCOM 100",
+        "ECON 101"
+      ]
+    },
+    {
+      "name": "Tetsurou Kuroo",
+      "username": "kurotetsu1",
+      "courses": [
+        "MATH 135",
+        "MATH 127",
+        "CS 115",
+        "SPCOM 100",
+        "PSYCH 101"
+      ]
+    },
+    {
+      "name": "Conrad Hewitt",
+      "username": "chewitt",
+      "courses": [
+        "AFM 101",
+        "AFM 131",
+        "ECON 101",
+        "MATH 109",
+        "AFM 132"
+      ]
+    },
+    {
+      "name": "Ryan Higa",
+      "username": "nigahiga",
+      "courses": [
+        "MATH 109",
+        "ECON 101",
+        "AFM 131",
+        "AFM 132",
+        "AFM 101"
+      ]
+    },
+    {
+      "name": "Benoit Leduc",
+      "username": "leduck",
+      "courses": [
+        "PHYS 111",
+        "CHEM 120",
+        "MATH 137",
+        "PSYCH 101",
+        "AFM 132"
+      ]
+    },
+    {
+      "name": "Henry Zavagno",
+      "username": "zavagnooooo",
+      "courses": [
+        "CHEM 120",
+        "BIOL 110",
+        "MATH 127",
+        "MATH 114",
+        "SPCOM 100"
+      ]
+    },
+    {
+      "name": "Krystal Jung",
+      "username": "vousmevoyez",
+      "courses": [
+        "MATH 127",
+        "SPCOM 100",
+        "BIOL 110",
+        "PHYS 111",
+        "GEOG 100"
+      ]
+    },
+    {
+      "name": "Naruto Uzumaki",
+      "username": "ifyoubelieveit",
+      "courses": [
+        "CHE 102",
+        "MATH 116", 
+        "CIVE 104",
+        "CIVE 115",
+        "GENE 199"
+      ]
+    },
+    {
+      "name": "Sasuke Uchiha",
+      "username": "revenge",
+      "courses": [
+        "MATH 116",
+        "GENE 199",
+        "CIVE 115",
+        "CHE 102",
+        "CIVE 104"
+      ]
+    },
+    {
+      "name": "Victoria Song",
+      "username": "songqian",
+      "courses": [
+        "HLTH 101",
+        "BIOL 130",
+        "CHEM 120",
+        "AHS 107"
+      ]
+    },
+    {
+      "name": "Jackson Wang",
+      "username": "jackwangson",
+      "courses": [
+        "BIOL 130",
+        "AHS 107",
+        "MATH 124",
+        "KIN 104",
+        "CHEM 120"
+      ]
+    },
+    {
+      "name": "Annabeth Chase",
+      "username": "owlofminerva",
+      "courses": [
+        "HLTH 101",
+        "HLTH 103",
+        "AHS 107",
+        "MATH 124",
+        "KIN 104"
+      ]
+    },
+    {
+      "name": "Percy Jackson",
+      "username": "sonofposeidon",
+      "courses": [
+        "GEOG 101",
+        "ENVS 178",
+        "GEOG 181",
+        "GEOG 100",
+        "GEOG 187"
+      ]
+    },
+    {
+      "name": "Peter Pan",
+      "username": "neverland",
+      "courses": [
+        "GEOG 181",
+        "GEOG 187",
+        "ENVS 178",
+        "CS 115",
+        "MATH 114"
+      ]
+    },
+    {
+      "name": "Rosa Diaz",
+      "username": "diazr99",
+      "courses": [
+        "PSYCH 101",
+        "ARTS 130",
+        "LS 101",
+        "SOC 101",
+        "PSCI 100"
+      ]
+    },
+    {
+      "name": "Charles Boyle",
+      "username": "boylec99",
+      "courses": [
+        "SOC 101",
+        "ARTS 130",
+        "GEOG 100",
+        "PSCI 100",
+        "LS 101"
+      ]
+    },
+    {
+      "name": "Gina Linetti",
+      "username": "linettig99",
+      "courses": [
+        "SOC 101",
+        "PSCI 100",
+        "GEOG 181",
+        "GEOG 100",
+        "ARTS 130"
+      ]
+    },
+    {
+      "name": "Raymond Holt",
+      "username": "holtr99",
+      "courses": [
+        "PSCI 100",
+        "SOC 101",
+        "ARTS 130",
+        "LS 101",
+        "PSYCH 101"
+      ]
     }
-]
+  ]
+  

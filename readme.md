@@ -86,7 +86,7 @@ response:
 ```js
 [
     {
-        date: "DDMMYY",
+        date: "DDMMYY", 
         courses: [
             string
         ],
